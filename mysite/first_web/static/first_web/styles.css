@@ -1,8 +1,44 @@
+body {
+    color: #212427;
+}
+
+
 h1 {
-    padding: 100px;
+    padding-top: 250px;
+    padding-bottom: 250px;
     font-family: sans-serif;
     font-size: 90px;
     font-weight: bold;
     text-align: center;
-    color: black;
 }
+
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* CARD */
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+  }
+
+.slim_h {
+    height: 150px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: transparent;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 999;
+  }
+  
+  .logo img {
+    height: 40px; /* Set the height of your logo image */
+    width: auto; /* Set the width of your logo image to auto to maintain aspect ratio */
+  }

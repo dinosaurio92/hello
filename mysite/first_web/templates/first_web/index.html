@@ -1,6 +1,136 @@
 {% extends "first_web/layout.html" %}
-    
+{% load static %}
+
 {% block body %}
-    <h1>Hello! My name is Franco.</h1>
-    <h2>This is just a test</h2>
+    <div class="container">
+        
+        <h1>F's kitchen.</h1>
+        <h2>Where food might try to take your jobs and kill you but if not, it's awesome!</h2>
+        
+
+        <!-- Latest updates -->
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Latest Updates</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <h2>V0.1</h2>
+            </div>
+
+            <div class="col">
+                <h2>"Django is working?"</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <h2>V0.1</h2>
+            </div>
+            <div class="col">
+                <h2>"Django is working?"</h2>
+            </div>
+        </div>
+
+        <!-- Active projects -->
+
+        <!-- Projects in process -->
+        <div class="row">
+            <p>Projects in process</p>
+        </div>
+        <!-- Project card banner start-->
+        <div class="row">
+            <div class="col-md-4">
+                <h2>Building layout for the portfolio page</h2>
+                <p>Unknown level</p>
+            </div>
+            <div class="col">
+                <p>Home sweet home, a place to go back when you are tired or lost.</p>
+            </div>
+        </div>
+        <!-- Project card banner end-->
+
+
+        <!-- Pending projects -->
+
+        <!-- Project card start -->
+        <div class="row project_card">
+            <div class="col-md-4">
+                <h4>Volunteer Landing Page</h4>
+                <p>Basic level</p>
+            </div>
+            <div class="col">
+                <p>"Some people, specially people between 17-27 years old are missing all the benefits of being a volunteer. This website will gather just some of the benefits to hook their attention."</p>
+            </div>
+        </div>
+        <!-- Card end -->
+
+        <div class="row project_card">
+            <div class="col-md-4">
+                <h4>Automated SEO experiment.</h4>
+                <p>Expert level</p>
+            </div>
+            <div class="col">
+                <p>"In Russia, webpages looks for you"</p>
+                <p>"It's annoying to be creating content while checking the top trends, key words, etc. Building an app that gathers and utilices top key-words for the search engine would be a game changer. "</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <h4>Automation blog</h4>
+                <p>Basic level</p>
+            </div>
+            <div class="col">
+                <p>Just a simple webpage with automation tips and ideas for anyone with no-progamming level could find usefull</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <h4>Web to compare Mercado libre's prices</h4>
+                <p>Intermediate level</p>
+            </div>
+            <div class="col">
+                <p>Compare prices in the long run to recognize true investments and find the best option for you.</p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-4">
+                <h4>Learning Database Management</h4>
+                <p>Training level</p>
+            </div>
+            <div class="col">
+                <p>Compare prices in the long run to recognize true investments and find the best option for you.</p>
+            </div>
+        </div>
+        
+        <!-- CARD IN TESTING -->
+
+
+
+          <div class="card mb-3 shadow-sm slim_h">
+            <div class="row no-gutters">
+              <div class="col-md-8 order-md-2">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="col-md-4 order-md-1">
+                <img src="{% static image_path %}" class="card-img" alt="Random Image" style="object-fit: cover; max-height: 148px;">
+              </div>
+            </div>
+          </div>
+
+        <!-- End pending projects -->
+
+    <!-- Container end -->
+    </div>
+    
+    
+    
+
+    
 {% endblock %}
